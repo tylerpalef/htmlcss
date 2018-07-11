@@ -1,75 +1,43 @@
-html {
-  display:inlie-block;
+h1{
+  color: white;
+  background-color: lightgrey;
   text-align:center;
-}
-
-h1 {
   font-size:40px;
-  color:white;
-  background-color:grey;
-  display:block;
+  margin: 0;
+  padding: 2px;
+}
+
+nav {
   text-align: center;
-  margin-bottom: 10px;
-  padding-left: 5em;
-  padding-right: 5em;
 }
 
-
-
-
-nav li{
-  text-decoration: none;
-  color:white;
-  background-color:lightgrey;
-  display:inline;
-}
-
-nav a {
-text-decoration: none;
-color: white;
-margin: auto;
-padding: 2px;
-margin-top: 2px;
+li, a{
+  text-decoration:none;
+  color: white;
+  background-color:grey;
+  margin: .2em;
+  text-align:center;
+  padding: .2em;
+  display: inline-block;
 }
 
 h2 {
-  font-size:30px;
-  color: black;
-  background-color: #11f2ce;
-  padding: 10px;
-  margin:10px;
-  display: block;
-  text-align: left;
+  background: teal;
+  padding: 3px;
+  margin: 1px;
 }
 
-span {
-  border-bottom: solid 2px yellow;
-  font-weight: bold;
-}
+.pretty {}
 
-div  a{
-  text-decoration: underline;
-  color: blue;
+.frame {}
+
+.links>a{
   background-color: yellow;
 }
 
-.pictures{
-  align: center;
-  margin:auto;
-  padding:auto;
-  border:auto;
-  display: inline;
-  box-sizing: content-box;
-  text-align: center;
-  width: 33%;
-}
-
-
-footer {
-  background-color: black;
-  height: 50px;
-  text-align: center;
+.footertext {
   color: white;
-  width: 100%;
-  display: block;
+  background-color: black;
+  padding: 1em 0;
+  text-align:center;
 }
